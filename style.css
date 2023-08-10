@@ -158,8 +158,14 @@ p {
 }
 
 .fa-brands {
+    position: relative;
     color: #E5E5E5;
     width: 4em;
     height: 4em;
-    padding-top: 30px;
+    transition: 0.25s;
+    top: 20px;
+}
+
+.fa-brands:hover {
+    color: #ffbe0b;
 }
