@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+body {
+    height: 100%;
+    background-color: #2D2D2D;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    color: #ffbe0b;
+    padding: 13px 10px;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 1px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.networkbar {
+    height: 22px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+}
+
+.networkbar a {
+    margin: 0px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 300;
+    color: grey;
+    transition: 200ms;
+}
+
+.networkbar a:hover {
+    color: #E5E5E5;
+}
+
+.killermainimg {
+    background-color: none;
+    color: #E5E5E5;
+    padding: 4px 15px;
+    margin: 0px 5px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #2D2D2D;
+
+}
+
+.killermainimg:hover {
+    cursor: pointer;
+}
+
+nav  {
+    display: flex;
+    justify-content: center;
+}
+
+#killerimg {
+    width: 2em;
+    height: 2em;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 991px;
+}
+
+.katiller {
+    width: 750px;
+    height: 400px;
+    background-color: rgb(32, 32, 32);
+    border: 2px solid #8338ec;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px 0px #8338ec;
+    margin-bottom: 30px;
+}
+
+.katilisim {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #E5E5E5;
+    margin-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 50px 15px;
+}
+
+.builds {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 268px;
+    left: 225px;
+    width: 500px;
+    height: 230px;
+    background-color: rgb(15, 15, 15);
+    border: 0.1px solid #fb5607;
+    border-radius: 15px;
+    justify-content: center;
+    box-shadow: 1px 1px 6px 1px #fb5607;
+}
+
+.perks {
+    position: relative;
+    bottom: 25px;
+    width: 175px;
+    height: 175px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 20px;
+    color: #E5E5E5;
+    box-shadow: 1px 1px 6px 0px #E5E5E5;
+
+}
+
+h4 {
+    color: #E5E5E5;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+p {
+    letter-spacing: 0.5px;
+}
+
+.fa-brands {
+    color: #E5E5E5;
+    width: 4em;
+    height: 4em;
+    padding-top: 30px;
+}
