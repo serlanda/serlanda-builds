@@ -169,3 +169,9 @@ p {
 .fa-brands:hover {
     color: #ffbe0b;
 }
+
+.perks:hover, .perks:active {
+    width: 200px;
+    height: 200px;
+    bottom:  40px;
+}
